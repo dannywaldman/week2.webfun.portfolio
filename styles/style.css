@@ -1,0 +1,121 @@
+@import url("reset.css"); /* reset */
+
+#wrapper {
+	margin: auto;
+}
+
+button {
+	margin-left: 70px;
+	background-color: #407c60;
+	color: white;
+	font-weight: bold;
+	font-size: 13px;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin-bottom: 5px;
+	box-shadow: 2px 2px #888888;
+}
+
+.tech-icons img {
+	height: 30px;
+	width: 30px;
+}
+
+#footer img {
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#footer li {
+	display: inline-block;
+}
+
+.tech-icons li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px;
+	margin-left: 5px;
+}
+
+#header {
+	width: 830px;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background: linear-gradient(#f1f1f1, #fdfdfd);
+}
+
+#footer {
+	width: 830px;
+	padding: 10px;
+	height: 55px;
+	margin: 0 auto;
+	text-align: center;
+	background: linear-gradient(#fdfdfd, #f1f1f1);
+}
+
+#header span:last-child {
+	float: right;
+}
+
+a {
+	color: black;
+}
+
+#main {
+	width: 830px;
+	margin: inherit;
+	background: linear-gradient(#1d0c10, #6f5864, #1d0c10);
+	padding: 10px;
+}
+
+#main-top div:first-child {
+	background: url("../images/photo_of_me.jpg") no-repeat;
+	height: 220px;
+	width: 300px;
+	background-size: 300px 235px;
+	margin: 10px;
+	border: 5px solid #c0c0c0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#main-top div:last-child {
+	display: inline-block;
+	margin: 10px;
+	width: 460px;
+	background: linear-gradient(to right, #fbfbfb , #dacbd9);
+}
+
+#main-top div p {
+	padding: 10px;
+}
+
+
+#main-bottom div{
+	margin: 5px 0 0 10px;
+	display: inline-block;
+	width: 255px;
+	background: linear-gradient(to right, #fbfafb , #d8c9d8);
+	vertical-align: top;
+
+}
+
+#main-bottom div p{
+	padding: 5px;
+	height: 175px;
+}
+
+h1 {
+	background: linear-gradient(#b3b2b6, #888694, #b3b3b6);
+	padding: 10px;
+	font-size: 20px;
+	color: #fefeff;
+}
+
+img {
+	width: 255px;
+}
